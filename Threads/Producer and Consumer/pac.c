@@ -4,6 +4,10 @@
   CST-221
   Producer and Consumer
 
+  Producer adds 25 to buffer every loop until it's full
+  Consumer consumes 10 from the buffer every loop until it's empty (should not happen)
+  Both threads sleep every loop and print the buffer size to the console
+
 */
 
 #include <stdio.h>
